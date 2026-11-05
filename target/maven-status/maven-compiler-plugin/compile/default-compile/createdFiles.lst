@@ -1,0 +1,5 @@
+com\pwa\localshop\LocalshopApplication.class
+com\pwa\localshop\model\Producto.class
+com\pwa\localshop\repository\ProductoRepository.class
+com\pwa\localshop\service\ProductoService.class
+com\pwa\localshop\controller\ProductoController.class
