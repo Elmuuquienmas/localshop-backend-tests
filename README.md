@@ -127,15 +127,3 @@ mvn test
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
 ```
-
----
-
-## ✅ Cumplimiento de la Lista de Cotejo
-
-| # | Criterio / Requerimiento | Cumple | Evidencia / Observación |
-| :-: | :--- | :-: | :--- |
-| **1** | Configuración del entorno (`spring-boot-starter-test` y JUnit 5) | **SÍ** | Configurado en `pom.xml` con scope `test`. |
-| **2** | Prueba de `findAll` | **SÍ** | Simulación de repositorio y validación de 2 registros devueltos. |
-| **3** | Prueba de `create` | **SÍ** | Validación de persistencia, retorno íntegro y aserciones de atributos. |
-| **4** | Uso adecuado de Mockito (`@Mock`, `@InjectMocks`, AssertJ) | **SÍ** | MockitoExtension activo, repositorio aislado y aserciones BDD. |
-| **5** | Ejecución exitosa | **SÍ** | `BUILD SUCCESS`, `Tests run: 2, Failures: 0, Errors: 0`. |
