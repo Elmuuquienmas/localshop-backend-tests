@@ -1,4 +1,4 @@
-# 🧪 Práctica 5: Laboratorio de Pruebas 2 — Pruebas Unitarias en Spring Boot
+# Práctica 5: Laboratorio de Pruebas 2 — Pruebas Unitarias en Spring Boot
 
 [![Java](https://img.shields.io/badge/Java-17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://openjdk.org/)
 [![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.x-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)](https://spring.io/projects/spring-boot)
@@ -10,7 +10,7 @@ Repositorio de entrega para la práctica de pruebas unitarias sobre la capa de s
 
 ---
 
-## 📌 Datos de la Asignatura y Práctica
+## Datos de la Asignatura y Práctica
 
 * **Asignatura:** Aplicaciones Web Progresivas / Desarrollo Backend (`IDGS101`)
 * **Unidad de Aprendizaje:** Pruebas de Software y Calidad de Componentes
@@ -22,13 +22,13 @@ Repositorio de entrega para la práctica de pruebas unitarias sobre la capa de s
 
 ---
 
-## 🎯 Objetivo de la Práctica
+## Objetivo de la Práctica
 
 Diseñar e implementar pruebas unitarias automatizadas con **JUnit 5** y **Mockito** para validar el funcionamiento de las operaciones de persistencia y recuperación de datos (`findAll` y `create/save`) en la capa de servicios (`ProductoService`), garantizando la independencia de la base de datos física mediante dobles de prueba (mocks).
 
 ---
 
-## 🛠️ Tecnologías y Dependencias
+## Tecnologías y Dependencias
 
 | Herramienta / Librería | Versión / Rol | Descripción |
 | :--- | :--- | :--- |
@@ -41,7 +41,7 @@ Diseñar e implementar pruebas unitarias automatizadas con **JUnit 5** y **Mocki
 
 ---
 
-## 📂 Arquitectura del Proyecto
+## Arquitectura del Proyecto
 
 ```text
 localshop/
@@ -71,7 +71,7 @@ localshop/
 
 ---
 
-## 🧪 Pruebas Unitarias Implementadas
+## Pruebas Unitarias Implementadas
 
 Las pruebas se encuentran en `ProductoServiceTest.java` y siguen el patrón **Given-When-Then**:
 
@@ -94,7 +94,7 @@ Las pruebas se encuentran en `ProductoServiceTest.java` y siguen el patrón **Gi
 
 ---
 
-## 📸 Evidencia de Ejecución Exitosa
+## Evidencia de Ejecución Exitosa
 
 ### Comando ejecutado en consola:
 ```bash
@@ -105,8 +105,6 @@ mvn test
 > Guarda tu captura de pantalla en la carpeta `docs/screenshots/test-execution.png` (o en la raíz) para que se visualice automáticamente a continuación:
 
 ![Evidencia de ejecución exitosa](docs/screenshots/test-execution.png)
-
-*(Si tu imagen tiene otro nombre o ruta, solo actualiza la línea anterior).*
 
 ---
 
